@@ -1,12 +1,11 @@
 import './App.css';
-import MiBoton from './components/miboton';
+import ContadorClase from './components/ContadorClase'
+
 
 function App() {
 
-  return (
-    <>
-    <MiBoton texto='Mi botón'/>
-    </>
+  return (   
+    <ContadorClase/>
   );
 }
 
